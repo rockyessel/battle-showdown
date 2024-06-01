@@ -7,15 +7,13 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
+gstd = "1.4.1"
 battle-showdown-io={path = "io"}
 parity-scale-codec = { version = "3", default-features = false }
 scale-info = { version = "2", default-features = false }
 
-
-
 [build-dependencies]
-gear-wasm-builder = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
+gear-wasm-builder = "1.1.0"
 battle-showdown-io={path = "io"}
 parity-scale-codec = { version = "3", default-features = false }
 scale-info = { version = "2", default-features = false }
